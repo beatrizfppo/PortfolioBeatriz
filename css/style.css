@@ -19,6 +19,10 @@ header {
     justify-content: space-between;
     padding: 20px;
     border-bottom: 2px solid #9127DE;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #13131F;
 }
 
 .nav-itens {
@@ -34,6 +38,10 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.nav-itens a:hover{
+    color: #d8acf7;
+    text-shadow: 0 4px 4px #7B7B7B;
 }
 
 h2 {
@@ -144,6 +152,11 @@ h3 {
     gap: 31px;
 }
 
+.curriculo:hover {
+    color: #d8acf7;
+    text-shadow: 0 4px 4px #7B7B7B;
+}
+
 .habilidades {
     display: flex;
     align-items: center;
@@ -221,6 +234,11 @@ h5 {
     line-height: normal;
     line-height: 70px;
     border-bottom: 1px solid white;
+}
+
+.proj-itens p:hover {
+    color: #d8acf7;
+    text-shadow: 0 4px 4px #7B7B7B;
 }
 
 .contato {
