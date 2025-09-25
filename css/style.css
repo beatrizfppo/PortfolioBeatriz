@@ -57,7 +57,6 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 200px 50px;
-    
     border-bottom: 1px solid #9127DE;
 }
 
@@ -79,7 +78,6 @@ h1 {
     font-size: 70px;
     color: #BB5DFF;
     font-family: "Redressed";
-    color: #BB5DFF;
     text-shadow: 0 4px 4px #7B7B7B;
     font-size: 96px;
     font-style: normal;
@@ -120,7 +118,6 @@ h1 {
 h3 {
     color: #BB5DFF;
     margin-bottom: 50px;
-    color: #BB5DFF;
     font-family: "Londrina Solid";
     font-size: 64px;
     font-style: normal;
@@ -292,4 +289,131 @@ footer p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media (max-width:768px){
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100vh;
+    }
+    .nav-itens {
+        gap: 5px;
+    }
+
+    .nav-itens a, h2 {
+        font-size: 20px;
+    }
+    .inicio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vh;
+        gap: 30px;
+    }
+    .foto-perfil {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        border-radius: 100%;
+        flex-shrink: 0;
+    }
+    .right, h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+    }
+    .subtitulo {
+        padding: 0;
+    }
+    .sobre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vh;
+        gap: 30px;
+    }
+    .sobre-p {
+        width: 400px;
+    }
+    .habilidades {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vh;
+        gap: 30px;
+    }
+    .habilidades h3 {
+        width: 300px;
+    }
+    .topicos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .topico-right {
+        width: 200px;
+    }
+
+    .projetos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vh;
+        gap: 30px;
+    }
+    .contato {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vh;
+        gap: 30px;
+    }
+    .redes-sociais {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vh;
+        gap: 30px;
+    }
+    footer p {
+        font-style: 10px;
+    }
+    h3 {
+        color: #BB5DFF;
+        margin-bottom: 50px;
+        font-family: "Londrina Solid";
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .sobre p {
+        gap: 30px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
