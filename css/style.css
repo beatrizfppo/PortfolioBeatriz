@@ -292,26 +292,32 @@ footer p {
 }
 
 @media (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100vw;
+    }
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-        width: 100vh;
-    }
+        justify-content: space-around;
+        width: 100%;
+/*         gap: 20px;
+ */    }
     .nav-itens {
         gap: 5px;
     }
 
     .nav-itens a, h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .inicio {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 100vh;
         gap: 30px;
     }
     .foto-perfil {
@@ -337,7 +343,7 @@ footer p {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 100vh;
+        width: 100wh;
         gap: 30px;
     }
     .sobre-p {
@@ -348,7 +354,7 @@ footer p {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 100vh;
+        width: 100wh;
         gap: 30px;
     }
     .habilidades h3 {
@@ -370,7 +376,7 @@ footer p {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 100vh;
+        width: 100wh;
         gap: 30px;
     }
     .contato {
@@ -378,7 +384,7 @@ footer p {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 100vh;
+        width: 100wh;
         gap: 30px;
     }
     .redes-sociais {
@@ -392,7 +398,7 @@ footer p {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 100vh;
+        width: 100wh;
         gap: 30px;
     }
     footer p {
