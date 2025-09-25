@@ -6,16 +6,21 @@
     <title>Portfólio Beatriz Felippo</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Londrina+Solid:wght@100;300;400;900&family=Mada:wght@200..900&family=Redressed&display=swap" rel="stylesheet">
+
 <body>
 
     <header>
         <h2>Portfólio</h2>
-        <nav-itens>
+        <nav class="nav-itens">
             <a href="#sobre">Sobre</a>
             <a href="#habilidades">Habilidades</a>
             <a href="#projetos">Projetos</a>
             <a href="#contato">Contato</a>
-        </nav-itens>
+        </nav>
     </header>
 
     <main class="container">
@@ -28,87 +33,119 @@
             <div class="right">
                 <h1>Beatriz Felippo</h1>
                 <p class="subtitulo">Desenvolvedora Full Stack</p>
-                <p>Conheça minha trajetória, meus projetos e minhas habilidades! :)</p>
+                <p class="desc">Conheça minha trajetória, meus projetos e minhas habilidades! :)</p>
             </div>
         </section>
 
         <section class="sobre" id="sobre">
             <h3>Sobre mim!</h3>
-            <p>Fullstack Dev</p>
-            <p>Estudante de Desenvolvimento de Sistemas</p>
-            <p>Apaixonada por programação e sedenta por conhecimento. Sou uma pessoa paciente, focada e fácil de se relacionar. Sou uma profissional dedicada, ágil e muito critiva.</p>
-            <p>Currículo <span>▼</span></p>
+            <div class="sobre-p">
+                <p>Fullstack Dev</p>
+                <p>Estudante de Desenvolvimento de Sistemas</p>
+                <p>Apaixonada por programação e sedenta por conhecimento. Sou uma pessoa paciente, focada e fácil de se relacionar. Sou uma profissional dedicada, ágil e muito critiva.</p>
+                <p>Currículo <span>▼</span></p>
+            </div>
         </section>
 
         <section class="habilidades" id="habilidades">
             <h3>Habilidades e Informações</h3>
-            <div class="hab-left">
-                <div class="program-fullstack">
-                    <img src="./img/dev-icon.png" alt="">
-                    <h5>Programadora Fullstack</h5>
-                    <p>Conhecimento tanto em backend quanto frontend, além de banco de dados. Trabalho com websites</p>
+            <div class="topicos">
+                <div class="hab-left">
+                    <div class="program-fullstack">
+                        <img src="./img/dev-icon.png" alt="">
+                        <div class="topico-right">
+                            <h5>Programadora Fullstack</h5>
+                            <p>Conhecimento tanto em backend quanto frontend, além de banco de dados. Trabalho com websites</p>
+                        </div>
+                        
+                    </div>
+                    <div class="trab-equipe">
+                        <img src="./img/equipe-icon.png" alt="">
+                        <div class="topico-right">
+                            <h5>Trabalho em Equipe</h5>
+                            <p>Me dou bem com pessoas, consigo facilmente lidar com elas e trabalhar em conjunto.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="autodidata">
+                        <img src="./img/autodit-icon.png" alt="">
+                        <div class="topico-right">
+                            <h5>Autodidata</h5>
+                            <p>Possuo facilidadde em aprender e disciplina suficiente para caminhar por conta própria</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="trab-equipe">
-                    <img src="./img/equipe-icon.png" alt="">
-                    <h5>Trabalho em Equipe</h5>
-                    <p>Me dou bem com pessoas, consigo facilmente lidar com elas e trabalhar em conjunto.</p>
-                </div>
-                <div class="autodidata">
-                    <img src="./img/autodit-icon.png" alt="">
-                    <h5>Autodidata</h5>
-                    <p>Possuo facilidadde em aprender e disciplina suficiente para caminhar por conta própria</p>
-                </div>
-            </div>
-            <div class="hab-right">
-                <div class="SENAI">
-                    <img src="./img/capelo-icon.png" alt="">
-                    <h5>Tecnóloga em Formação</h5>
-                    <p>Estudante do curso técnico Análise e Desenvolvimento de Sistemas Pelo SENAI</p>
-                </div>
-                <div class="pensa-critico">
-                    <img src="./img/xadrez-icon.png" alt="">
-                    <h5>Pensamento crítico/racional</h5>
-                    <p>Sou capaz de raciocinal de forme crítica e lógica, encontrando soluções para problemas reais</p>
-                </div>
-                <div class="comunicacao">
-                    <img src="./img/pen-icon.png" alt="">
-                    <h5>Comunicação</h5>
-                    <p>Possuo excelentes habilidades orais e escritas, sabendo me expressar de forma clara e objetiva.</p>
+                <div class="hab-right">
+                    <div class="SENAI">
+                        <img src="./img/capelo-icon.png" alt="">
+                        <div class="topico-right">
+                            <h5>Tecnóloga em Formação</h5>
+                            <p>Estudante do curso técnico Análise e Desenvolvimento de Sistemas Pelo SENAI</p>
+                        </div>
+                        
+                    </div>
+                    <div class="pensa-critico">
+                        <img src="./img/xadrez-icon.png" alt="">
+                        <div class="topico-right">
+                            <h5>Pensamento crítico/racional</h5>
+                            <p>Sou capaz de raciocinal de forme crítica e lógica, encontrando soluções para problemas reais</p>
+                        </div>
+                        
+                    </div>
+                    <div class="comunicacao">
+                        <img src="./img/pen-icon.png" alt="">
+                        <div class="topico-right">
+                            <h5>Comunicação</h5>
+                            <p>Possuo excelentes habilidades orais e escritas, sabendo me expressar de forma clara e objetiva.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="projetos" id="projetos">
             <h3>Meus Projetos</h3>
-            <p><span>→</span> Projeto 1</p>
-            <p><span>→</span> Projeto 2</p>
-            <p><span>→</span> Projeto 3</p>
-            <p><span>→</span> Projeto 4</p>
-            <p><span>→</span> Projeto 5</p>
-            <p><span>→</span> Projeto 6</p>
+            <div class="proj-itens">
+                <p><span>→</span> Projeto 1</p>
+                <p><span>→</span> Projeto 2</p>
+                <p><span>→</span> Projeto 3</p>
+                <p><span>→</span> Projeto 4</p>
+                <p><span>→</span> Projeto 5</p>
+                <p><span>→</span> Projeto 6</p>
+            </div>
         </section>
 
         <section class="contato" id="contato">
             <h3>Entre em Contato!</h3>
-            <div class="email">
-                <img src="./img/email-icon.png" alt="email">
-                <h6>Email</h6>
-                <p>beatrizcirinofelippo@gmail.com</p>
-            </div>
-            <div class="telefone">
-                <img src="./img/tel-icon.png" alt="telefone">
-                <h6>Telefone</h6>
-                <p>Sem informações</p>
-            </div>
-            <div class="linkedin">
-                <img src="./img/in-icon.png" alt="linkedin">
-                <h6>LinkedIn</h6>
-                <p>Beatriz Cirino</p>
-            </div>
-            <div class="github">
-                <img src="./img/github-icon.png" alt="github">
-                <h6>GitHub</h6>
-                <p>@beatrizfppo</p>
+            <div class="redes-sociais">
+                <div class="email">
+                    <img src="./img/email-icon.png" alt="email">
+                    <div class="contato-down">
+                        <h6>Email</h6>
+                        <p><a href="">beatrizcirinofelippo@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="telefone">
+                    <img src="./img/tel-icon.png" alt="telefone">
+                    <div class="contato-down">
+                        <h6>Telefone</h6>
+                        <p>Sem informações</p>
+                    </div>
+                </div>
+                <div class="linkedin">
+                    <img src="./img/in-icon.png" alt="linkedin">
+                    <div class="contato-down">
+                        <h6>LinkedIn</h6>
+                        <p><a href="https://www.linkedin.com/in/beatriz-de-felippo-souza-cirino-145620326/?originalSubdomain=br">Beatriz Cirino</a></p>
+                    </div>
+                </div>
+                <div class="github">
+                    <img src="./img/github-icon.png" alt="github">
+                    <div class="contato-down">
+                        <h6>GitHub</h6>
+                        <p><a href="https://github.com/beatrizfppo">@beatrizfppo</a></p>
+                    </div>
+                </div>
             </div>
         </section>
 

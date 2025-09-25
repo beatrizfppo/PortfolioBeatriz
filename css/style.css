@@ -23,11 +23,33 @@ header {
 
 .nav-itens {
     display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-itens a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .foto-perfil {
     width: 400px;
     border-radius: 100%;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
 }
 
 .inicio {
@@ -50,12 +72,39 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    
 }
 
 h1 {
     font-size: 70px;
     color: #BB5DFF;
+    font-family: "Redressed";
+    color: #BB5DFF;
+    text-shadow: 0 4px 4px #7B7B7B;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.desc {
+    color: #FFF;
+    font-family: "Jost";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 54px;
+}
+
+.subtitulo {
+    color: #FFF;
+    font-family: "Inria Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .sobre {
@@ -63,16 +112,183 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 200px 50px;
+    padding: 100px 50px;
     border-bottom: 1px solid #9127DE;
 }
 
 h3 {
     color: #BB5DFF;
-    font-size: 60px;
     margin-bottom: 50px;
+    color: #BB5DFF;
+    font-family: "Londrina Solid";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .sobre p {
     gap: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sobre-p {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    gap: 31px;
+}
+
+.habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 50px;
+    border-bottom: 1px solid #9127DE;
+}
+
+.topicos {
+    display: flex;
+    gap: 40px;
+}
+
+.hab-left, .hab-right {
+    gap: 66px;
+}
+
+.program-fullstack, .trab-equipe, .autodidata, .SENAI, .pensa-critico, .comunicacao {
+    display: flex;
+    margin-top: 66px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.topico-right {
+    width: 400px;
+    gap: 20px;
+}
+
+h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.topico-right p {
+    color: #F3F3F3;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 50px;
+    border-bottom: 1px solid #9127DE;
+}
+
+.proj-itens {
+    display: flex;
+    width: 208px;
+    height: 524px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.projetos p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 70px;
+    border-bottom: 1px solid white;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 50px;
+    border-bottom: 1px solid #9127DE;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.email, .telefone, .linkedin, .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email p, .telefone p, .linkedin p, .github p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.contato-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h6 {
+    color: #FFF;
+    font-family: "Mada";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #B3B3B3;
+    font-family: "Mada";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
