@@ -233,6 +233,10 @@ h5 {
     justify-content: center;
     cursor: pointer;
 }
+.proj-itens :hover {
+    background-color: #a60ccc;
+    background-color: #a102c9;
+}
 
 .proj-card p {
     text-align: center;
