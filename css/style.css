@@ -216,24 +216,36 @@ h5 {
 }
 
 .proj-itens {
-    display: flex;
-    width: 208px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     height: 524px;
-    flex-direction: column;
-    align-items: center;
     gap: 15px;
     flex-shrink: 0;
+}
+
+.proj-card {
+    background-color: #402358;
+    border-bottom: 1px solid white;
+    width: 260px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.proj-card p {
+    text-align: center;
 }
 
 .projetos p{
     color: #FFF;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 31px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     line-height: 70px;
-    border-bottom: 1px solid white;
 }
 
 .proj-itens p:hover {
